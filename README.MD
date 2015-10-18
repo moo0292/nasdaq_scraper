@@ -1,14 +1,25 @@
-Will become a heading
+Kittitat Rodchaidee
 ==============
 
-Will become a sub heading
+Nasdaq scraper 
 --------------
 
-*This will be Italic*
+*Missing authentication / testing due to time constraint*
+- Future would implement using Passport.js for authentication
+- Testing would use Mocha / Protractor
 
-**This will be Bold**
+**Technology Frontend**
 
-- This will be a list item
-- This will be a list item
+- Angular.js
+- Yeoman Generator
 
-    Add a indent and this will end up as code
+**Technology Backend**
+
+- Node
+- Mongodb / Mongoose
+
+**How to run**
+1. git clone https://github.com/moo0292/nasdaq_scraper.git
+2. npm install
+3. grunt
+4. grunt serve
