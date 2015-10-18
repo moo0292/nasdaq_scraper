@@ -1,0 +1,11 @@
+<div class="container no-margin-left" ng-controller="BodyCtrl">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="page-header custom-title">Nasdaq</h4>
+        </div>
+    </div>
+    <div>
+        <h4>{{currentValue}} <span class="text-green">({{currentChange | limitTo: 4}}%)</span></h4>
+    </div>
+    <canvas tc-chartjs chart-type="line" chart-data="data" chart-options="options"></canvas>
+</div>

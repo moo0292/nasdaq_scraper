@@ -1,0 +1,51 @@
+<div class="navbar navbar-inverse navbar-default navbar-static-top no-border-color" ng-controller="NavbarCtrl" ng-hide="navbar.smallScreen">
+    <div class="container custom-top-container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand white-text">StockBroker Inc.</a>
+        </div>
+        <form class="navbar-form navbar-right no-padding-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Go</button>
+        </form>
+    </div>
+    <div class="container custom-top-container-two">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#" class="custom-active">Nasdaq <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link #1</a></li>
+            <li><a href="#">Link #2</a></li>
+            <li><a href="#">Link #3</a></li>
+            <li><a href="#">Link #4</a></li>
+        </ul>
+    </div>
+</div>
+<div class="navbar navbar-inverse navbar-default navbar-static-top" ng-controller="NavbarCtrl" ng-show="navbar.smallScreen">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-xs-2 white-text">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle custom-nav-button" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="glyphicon glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Nasdaq</a></li>
+                            <li><a href="#">Link #1</a></li>
+                            <li><a href="#">Link #2</a></li>
+                            <li><a href="#">Link #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-8 white-text center-text small-nav-header">StockBroker Inc.</div>
+                <div class="col-xs-2 white-text">
+                    <div class="dropdown right-text">
+                        <button class="btn btn-default dropdown-toggle custom-nav-button" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

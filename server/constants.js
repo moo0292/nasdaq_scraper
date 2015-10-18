@@ -1,0 +1,1 @@
+module.exports.NASDAQ_URL = 'http://www.nasdaq.com/aspx/IndexData.ashx';
